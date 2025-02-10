@@ -1,0 +1,33 @@
+main{
+    display: inline-block;
+    background-color:antiquewhite;
+    padding: 8px; 
+    border-radius: 10px;
+}
+
+div{
+    padding: 3px;
+}
+
+h3{
+    font-size: medium;
+    margin: 1px;
+}
+
+.bg-1{
+    background-color: red;
+    border-style: none;
+}
+
+.bg-2{
+    background-color: aqua;
+    border-style: none;
+}
+
+.bg-3{
+    background-color: greenyellow;
+    border-style: none;
+}
+
+
+
