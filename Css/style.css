@@ -1,18 +1,18 @@
 h1{
-    text-shadow: 3px 2px 4px rgb(162, 134, 134);
+    text-shadow: 3px 2px 4px rgb(209, 131, 79);
 }
 
 body {
+    background-color: rgb(225, 166, 55);
     font-family: monospace;
 }
 
 main {
     max-width: 750px;
     justify-self: center;
-
-    /* Background Matter */
     background-color: blueviolet;
     border-radius: 8px;
+    box-shadow: #555 2px 2px 8px;
 }
 
 .main-header {
