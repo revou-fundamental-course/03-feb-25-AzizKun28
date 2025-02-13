@@ -4,8 +4,16 @@ h1{
 
 body {
     background-color: rgb(225, 166, 55);
-    font-family: monospace;
 }
+
+
+.roboto-uniquifier {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+  }
 
 main {
     max-width: 750px;
@@ -44,7 +52,8 @@ input[type=number]:focus {
 }
 
 .button-group {
-    margin-top: 16px;
+    margin-top: 15px;
+    justify-self: center;
 }
 
 button {
@@ -55,10 +64,12 @@ button {
 
 .bg-1 {
     background-color: red;
+    margin-right: 5px;
 }
 
 .bg-2 {
-    background-color: lightgoldenrodyellow
+    background-color: lightgoldenrodyellow;
+    margin-right: 5px;
 }
 
 .bg-3 {
